@@ -1,0 +1,22 @@
+function LookSaySequence(num) {
+
+  // code goes here  
+  let final = "";let ct=1;
+  for (let i = 0; i < num.toString().length; i++) {
+    
+    console.log("f",final,num.toString()[i]);
+    if (num.toString()[i] !== num.toString()[i + 1]) {
+      final += ct + num.toString()[i];
+      ct=1;
+      console.log("here",final);
+    }
+    else {
+      ct++;
+      console.log("here 2",num.toString()[i],final,ct);
+    }
+  }
+
+ console.log(final);
+
+}
+LookSaySequence(1211);
