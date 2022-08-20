@@ -1,0 +1,11 @@
+synchronous single threaded language 
+ can do only single thing at a time
+ has a single call stack
+ call stack exist inside the js engine which is inside the browser
+ gec is created and pushed inside the call stack
+
+
+ browser wraps all power in a global object caaled window
+
+ setTimeout
+ local storage fetchapi
