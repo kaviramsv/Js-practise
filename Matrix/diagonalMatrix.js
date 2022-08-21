@@ -1,3 +1,23 @@
+//better method
+const diagonal = (matrix) => {
+
+  for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < matrix[i].length; j++) {
+      console.log(matrix[i][j]);
+      if (i !== j && matrix[i][j] !== 0) {
+        return "not diagonal"
+      }
+    }
+  }
+  return "diagonal"
+
+}
+
+console.log(diagonal([[1, 0, 0], [0, 2, 0], [0, 2, 3]]))
+
+//==================================
+
+
 const diagonalCheck = (matrix) => {
   let flag = 0;
   for (let i = 0; i < matrix.length; i++) {

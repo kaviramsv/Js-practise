@@ -11,4 +11,4 @@ const lcm = (n1, n2) => {
   return final;
 }
 
-console.log((lcm(6, 8)));
+console.log((lcm(6, 8)));//24
