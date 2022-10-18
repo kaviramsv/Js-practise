@@ -8,6 +8,5 @@ let multiply = function (x) {
   }
 }
 
-let multiplyBy2 = multiply(2);
-multiplyBy2(3);
-
+let multiply2 = multiply(2);
+multiply2(3)
