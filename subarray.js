@@ -6,6 +6,7 @@ function MaxSubarray(arr) {
     for (let j = i + 1; j < arr.length; j++) {
 
       let sub_arr = arr.slice(i, j + 1);//find sub array
+      console.log(sub_arr);
       let sum = sub_arr.reduce((a, b) => a + b, 0);//find sum of sub array
       final.push(sum);// push into final array
 
