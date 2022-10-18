@@ -1,5 +1,5 @@
-// const fetch = require("node-fetch");
-import fetch from 'node-fetch'
+const fetch = require("node-fetch");
+// import fetch from 'node-fetch'
 // globalThis.fetch = fetch
 const fetchPromise =
   fetch('https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json');
